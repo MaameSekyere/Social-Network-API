@@ -29,12 +29,7 @@ const ReactionSchema = new Schema({
       get: (date) => timeSince(date),
     },
   },
-  toJSON: {
-    getters: true,
-  },
   id: false,
 });
 
-const Reaction = model("Reaction", ReactionSchema);
-
-module.exports = Reaction;
+module.exports = ReactionSchema;

@@ -1,38 +1,24 @@
 const { Schema, model } = require("mongoose");
+const ReactionSchema = require("./Reaction");
 
-const ThoughtSchema = new Schema({
-  thoughtText: {
-    type: String,
-    required: true,
-    max: 280,
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-    get: (date) => {
-      if (date) return date.toISOString().split("T")[0];
-    },
-    createdAt: {
-      type: Date,
-      get: (date) => timeSince(date),
-    },
-    updatedAt: {
-      type: Date,
-      get: (date) => timeSince(date),
+const ThoughtSchema = new Schema(
+  {
+    thoughtText: {
+      type: String,
+      required: true,
+      max: 280,
     },
     username: {
       type: String,
       require: true,
     },
     reactions: [ReactionSchema],
+    id: false,
   },
-  timestamps: true,
-  toJSON: {
-    getters: true,
-    virtuals: true,
-  },
-  id: false,
-});
+  {
+    timestamps: true,
+  }
+);
 
 ThoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
