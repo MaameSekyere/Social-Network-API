@@ -69,7 +69,7 @@ const userController = {
     )
       .then((dbUserData) => {
         if (!dbUserData) {
-          res.status(404).json({ message: "No User with this Id!" });
+          res.status(404).json({ message: "No User found with this Id!" });
           return;
         }
         res.json(dbUserData);
@@ -86,7 +86,7 @@ const userController = {
     )
       .then((dbUserData) => {
         if (!dbUserData) {
-          res.status(404).json({ message: "No User with this id!" });
+          res.status(404).json({ message: "No User found with this id!" });
           return;
         }
         res.json(dbUserData);
