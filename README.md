@@ -1,6 +1,12 @@
 # Social-Network-API
 
 ## Table of Contents
+- [User Story](https://github.com/MaameSekyere/Social-Network-API#user-story)
+- [Acceptance Criteria](https://github.com/MaameSekyere/Social-Network-API#acceptance-criteria)
+- [Description](https://github.com/MaameSekyere/Social-Network-API#description)
+- [Installation](https://github.com/MaameSekyere/Social-Network-API#installation)
+- [Video Link](https://github.com/MaameSekyere/Social-Network-API#video-link)
+- [Created By](https://github.com/MaameSekyere/Social-Network-API#Maaame-Sekyere)
 
 ### User Story
 
