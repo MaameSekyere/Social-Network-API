@@ -6,7 +6,7 @@
 - [Description](https://github.com/MaameSekyere/Social-Network-API#description)
 - [Installation](https://github.com/MaameSekyere/Social-Network-API#installation)
 - [Video Link](https://github.com/MaameSekyere/Social-Network-API#video-link)
-- [Created By](https://github.com/MaameSekyere/Social-Network-API#Maaame-Sekyere)
+- [Created By](https://github.com/MaameSekyere/Social-Network-API#created-by)
 
 ### User Story
 
@@ -43,4 +43,4 @@ Connected on localhost:8080
 
 ### Created By
 
-Maame Sekyere
+[Maame Sekyere](https://github.com/MaameSekyere/Social-Network-API#Maame-Sekyere)
