@@ -8,6 +8,7 @@
 - [Installation](https://github.com/MaameSekyere/Social-Network-API#installation)
 - [Video Link](https://github.com/MaameSekyere/Social-Network-API#video-link)
 - [Created By](https://github.com/MaameSekyere/Social-Network-API#created-by)
+- [Walkthrough Link](https://drive.google.com/file/d/1snhkSLADNy8Uj2VN_n-baCP2fY3MWsOh/view)
 
 ### User Story
 
