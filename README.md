@@ -1,6 +1,7 @@
 # Social-Network-API
 
 ## Table of Contents
+
 - [User Story](https://github.com/MaameSekyere/Social-Network-API#user-story)
 - [Acceptance Criteria](https://github.com/MaameSekyere/Social-Network-API#acceptance-criteria)
 - [Description](https://github.com/MaameSekyere/Social-Network-API#description)
@@ -40,6 +41,8 @@ $ npm start
 Connected on localhost:8080
 
 ### Video Link
+
+[Walkthrough Link](https://drive.google.com/file/d/1snhkSLADNy8Uj2VN_n-baCP2fY3MWsOh/view)
 
 ### Created By
 

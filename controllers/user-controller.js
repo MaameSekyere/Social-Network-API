@@ -53,6 +53,7 @@ const userController = {
       })
       .catch((err) => res.json(err));
   },
+
   // delete user
   deleteUser({ params }, res) {
     User.findOneAndDelete({ _id: params.id })
